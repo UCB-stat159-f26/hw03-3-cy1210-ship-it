@@ -19,6 +19,12 @@ nadal-hw3-preview.png — Scatter plot for Rafael Nadal.
 
 instructions.md — Assignment instructions.
 
+test_function.r — Tests career data parsing, cleaning, and plot creation using local mock data.
+
+FemalePlayerCareer.js — Mock female player data provided in the assignment.
+
+MalePlayerCareer.js — Mock male player data provided in the assignment.
+
 README.md — Project description and reproduction instructions.
 
 All listed files are located in the repository root.
@@ -63,6 +69,8 @@ plot_career_data(nadal)
 ## Make Rules
 
 To reproduce the data and plots, run the R commands in the “Reproduce the Outputs” section from the repository root.
+
+Run Rscript test_function.r in the terminal from the repository root. The tests use local mock data without accessing the website. If all checks pass, the script prints "All tests passed!".
 
 ## Personal Reflection
 
